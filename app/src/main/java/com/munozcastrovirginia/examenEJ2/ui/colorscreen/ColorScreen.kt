@@ -71,8 +71,9 @@ fun SeleccionarColor(color: Color, cambiarColor: (Color)-> Unit) {
                 modifier = Modifier
                     .background(color)
                     .padding(16.dp)
+                    .width(50.dp)
+                    .height(50.dp)
             ) {
-                Text(text = "Color Seleccionado: ${color.toString()}")
             }
         }
     }
